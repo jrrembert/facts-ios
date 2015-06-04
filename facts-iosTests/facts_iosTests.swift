@@ -3,7 +3,7 @@
 //  facts-iosTests
 //
 //  Created by jrrembert on 6/4/15.
-//  Copyright (c) 2015 District Labs. All rights reserved.
+//  Adapted from Treehouse "Build a SimpleiPhone App with Swift" tutorial.
 //
 
 import UIKit

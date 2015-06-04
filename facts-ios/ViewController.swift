@@ -3,7 +3,7 @@
 //  facts-ios
 //
 //  Created by jrrembert on 6/4/15.
-//  Copyright (c) 2015 District Labs. All rights reserved.
+//  Adapted from Treehouse "Build a SimpleiPhone App with Swift" tutorial.
 //
 
 import UIKit
@@ -12,13 +12,13 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var funFactLabel: UILabel!
     
-    let factsArray = ["Ants stretch when they wake up in the morning.", "Ostriches can run faster than horses."]
-
+    let factBook = FactBook()
+    
     override func viewDidLoad() {
         
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        funFactLabel.text = factsArray[0]
+        funFactLabel.text = factBook.randomFact()
     }
 
     override func didReceiveMemoryWarning() {
@@ -28,7 +28,7 @@ class ViewController: UIViewController {
 
 
     @IBAction func showFunFact() {
-        funFactLabel.text = factsArray[1]
+        funFactLabel.text = factBook.randomFact()
     }
 }
 
