@@ -18,11 +18,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="An interesting fact goes here" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tBg-Cy-kHJ">
-                                <rect key="frame" x="52" y="200" width="216" height="41"/>
+                                <rect key="frame" x="52" y="200" width="216" height="139"/>
                                 <color key="tintColor" red="0.2627450980392157" green="1" blue="0.50980392156862742" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="216" id="jHj-8E-EFB"/>
-                                    <constraint firstAttribute="height" constant="41" id="oNr-W4-xga"/>
+                                    <constraint firstAttribute="height" constant="139" id="KTp-mS-e3y"/>
+                                    <constraint firstAttribute="width" constant="216" id="wjq-fJ-VvP"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -32,8 +32,8 @@
                                 <rect key="frame" x="52" y="417" width="216" height="61"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="61" id="Pdt-zp-NLI"/>
-                                    <constraint firstAttribute="width" constant="216" id="oIj-ge-xke"/>
+                                    <constraint firstAttribute="width" constant="216" id="4le-cJ-ur9"/>
+                                    <constraint firstAttribute="height" constant="61" id="VQp-op-6bg"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="14"/>
                                 <color key="tintColor" red="0.34901960784313724" green="0.85490196078431369" blue="0.41176470588235292" alpha="1" colorSpace="calibratedRGB"/>
@@ -46,11 +46,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Did you know?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ANN-qO-dcd">
-                                <rect key="frame" x="52" y="60" width="116" height="22"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="22" id="DRS-qW-Ypb"/>
-                                    <constraint firstAttribute="width" constant="116" id="FBn-Uj-XR2"/>
-                                </constraints>
+                                <rect key="frame" x="52" y="60" width="111" height="23.5"/>
                                 <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
@@ -58,12 +54,12 @@
                         </subviews>
                         <color key="backgroundColor" red="0.39954190740433337" green="0.87229719065656564" blue="0.48632054684507386" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="gJn-eS-2jh" secondAttribute="bottom" constant="90" id="H3J-bX-nIJ"/>
-                            <constraint firstItem="ANN-qO-dcd" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="36" id="gsb-rM-dLR"/>
-                            <constraint firstItem="tBg-Cy-kHJ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="180" id="hLf-2J-CGc"/>
-                            <constraint firstItem="ANN-qO-dcd" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="40" id="iTL-7u-IOE"/>
-                            <constraint firstItem="tBg-Cy-kHJ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="36" id="m9v-oK-Muc"/>
-                            <constraint firstItem="gJn-eS-2jh" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="36" id="pqf-cN-yfB"/>
+                            <constraint firstItem="ANN-qO-dcd" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="36" id="9v3-a0-Isc"/>
+                            <constraint firstItem="ANN-qO-dcd" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="40" id="LXA-Ir-5Md"/>
+                            <constraint firstItem="gJn-eS-2jh" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="36" id="Myw-OD-z9T"/>
+                            <constraint firstItem="tBg-Cy-kHJ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="36" id="TPO-tZ-y1R"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="gJn-eS-2jh" secondAttribute="bottom" constant="90" id="dkg-gj-W2G"/>
+                            <constraint firstItem="tBg-Cy-kHJ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="180" id="tgY-Yi-6Ot"/>
                         </constraints>
                     </view>
                     <connections>
