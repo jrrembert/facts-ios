@@ -2,16 +2,16 @@
 //  ColorWheel.swift
 //  facts-ios
 //
-//  Created by jrrembert on 6/4/15.
-//  Copyright (c) 2015 District Labs. All rights reserved.
+//  Created by J. Ryan Rembert on 6/3/2015.
+//  Modified from Treehouse "Build a Simple iPhone App with Swift" tutorial
 //
+
 
 import Foundation
 import UIKit
 
 struct ColorWheel {
-    
-    let colorArray = [
+    let colorsArray = [
         UIColor(red: 90/255.0, green: 187/255.0, blue: 181/255.0, alpha: 1.0), //teal color
         UIColor(red: 222/255.0, green: 171/255.0, blue: 66/255.0, alpha: 1.0), //yellow color
         UIColor(red: 223/255.0, green: 86/255.0, blue: 94/255.0, alpha: 1.0), //red color
@@ -21,12 +21,11 @@ struct ColorWheel {
         UIColor(red: 85/255.0, green: 176/255.0, blue: 112/255.0, alpha: 1.0), //green color
     ]
     
-    func randomColor () -> UIColor {
-        //Pick a random color from colorArray
-        var unsignedArrayCount = UInt32(colorArray.count)
+    func randomColor() -> UIColor {
+        var unsignedArrayCount = UInt32(colorsArray.count)
         var unsignedRandomNumber = arc4random_uniform(unsignedArrayCount)
         var randomNumber = Int(unsignedRandomNumber)
         
-        return colorArray[randomNumber]
+        return colorsArray[randomNumber]
     }
 }
