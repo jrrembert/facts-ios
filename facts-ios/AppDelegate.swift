@@ -2,9 +2,10 @@
 //  AppDelegate.swift
 //  facts-ios
 //
-//  Created by jrrembert on 6/4/15.
-//  Copyright (c) 2015 District Labs. All rights reserved.
+//  Created by J. Ryan Rembert on 6/3/2015.
+//  Modified from Treehouse "Build a Simple iPhone App with Swift" tutorial
 //
+
 
 import UIKit
 
@@ -16,6 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        application.setStatusBarStyle(UIStatusBarStyle.LightContent, animated: false)
         return true
     }
 
