@@ -15,11 +15,15 @@ class ViewController: UIViewController {
     
     let factBook = FactBook()
     let colorWheel = ColorWheel()
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         funFactLabel.text = factBook.randomFact()
+        
+        funFactButton.layer.cornerRadius = 30
+        funFactButton.layer.borderWidth = 2
+        funFactButton.layer.borderColor = UIColor.whiteColor().CGColor
     }
 
     override func didReceiveMemoryWarning() {
@@ -30,8 +34,8 @@ class ViewController: UIViewController {
     @IBAction func showFunFact() {
         var randomColor = colorWheel.randomColor()
         view.backgroundColor = randomColor
-        funFactButton.tintColor = randomColor
         funFactLabel.text = factBook.randomFact()
+        
     }
 
 }
