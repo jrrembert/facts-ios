@@ -62,3 +62,4 @@ let h = greeting("Ryan")
 h.0
 h.1
 
+var randomNumber = Int(arc4random_uniform(10))
