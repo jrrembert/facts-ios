@@ -33,7 +33,9 @@ class ViewController: UIViewController {
 
     @IBAction func showFunFact() {
         var randomColor = colorWheel.randomColor()
-        view.backgroundColor = randomColor
+        UIView.animateWithDuration(1.0, animations: {
+            self.view.backgroundColor = randomColor
+        });
         funFactLabel.text = factBook.randomFact()
         
     }
